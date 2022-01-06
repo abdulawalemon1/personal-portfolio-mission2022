@@ -2,7 +2,7 @@ body{
     font-family: 'Acme', sans-serif;
 }
 h1{
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .chosen-color{
@@ -10,11 +10,12 @@ h1{
 }
 .half-width{
     width: 50%;
-    padding-left: 5%;
+   padding-left: 10%;
+   
 
 }
 .half-width img{
-    width: 80%;
+    width: 65%;
 }
 .explore-button{
     text-decoration:none;
@@ -28,19 +29,23 @@ h1{
     display: flex;
     margin-top: 100px;
     margin-bottom: 150px;
-    margin-left: 50px;
-    
+    margin-left: 50px; 
 }
 .para-padding{
     padding-top: 5px;
     padding-bottom: 35px;
 }
 .para-align{
-    text-align: justify;
+
+    text-align:justify;
+    margin-right: 10px;
+    padding-right: 200px;
 }
 #text-border{
+    line-height: 35px;
     padding-left: 9px;
     border-left: 4px solid;
+    
     border-image:linear-gradient(#C70039,tomato);
     border-image-slice: 1;   
 }
@@ -62,19 +67,57 @@ h1{
     border-radius: 20px;
     margin-left:10%;
     margin-right: 1%;
-    padding: 20px 20px 20px 20px;
+    
+    padding-left: 25px;
+    padding-right: 10px;
+    padding-bottom: 10px;
 }
 #vision{
     background-color:rgb(203, 204, 238);
     border-radius: 20px;
     margin-left:1%;
     margin-right: 1%;
-    padding: 20px 20px 20px 20px;
+    
+    padding-left: 25px;
+    padding-right: 10px;
+    padding-bottom: 20px;
 }
 #goals{
     background-color:rgb(220, 243, 213);
     border-radius: 20px;
     margin-left:1%;
     margin-right: 10%;
-    padding: 20px 20px 20px 20px;
+    
+    padding-left: 25px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+#develop-image{
+    background-image: url(./images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size:200px 220px;
+    background-position:left; 
+   
+}
+#develop-text{
+    margin-right: 20%;
+    padding-right: 5%;
+    
+ 
+}
+#d-image{
+    padding-left: 2%;
+    height: 100%;
+    width: 100%;
+}
+
+.fourth-section-padding{
+    background-image: url(./images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position:right; 
+    background-size:13%;
+    padding-bottom:120px;
+    background-position-x: 1050px;
+
+    
 }
