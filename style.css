@@ -1,12 +1,15 @@
 body{
-    font-family: 'Acme', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+   
 }
 h1{
+    font-size: 60px;
+}
+h2{
     font-size: 40px;
 }
-
 .chosen-color{
-    color:#C70039 ;
+    color:rgb(253, 138, 95) ;
 }
 .half-width{
     width: 50%;
@@ -19,7 +22,7 @@ h1{
 }
 .explore-button{
     text-decoration:none;
-    background-image:linear-gradient(#C70039,tomato);
+    background-image:linear-gradient(rgb(238, 54, 29),tomato);
     padding: 10px 20px;
     color: white;
     border-radius: 5px;
@@ -32,8 +35,8 @@ h1{
     margin-left: 50px; 
 }
 .para-padding{
-    padding-top: 5px;
-    padding-bottom: 35px;
+    padding-top: 1px;
+    padding-bottom: 30px;
 }
 .para-align{
 
@@ -44,10 +47,15 @@ h1{
 #text-border{
     line-height: 35px;
     padding-left: 9px;
-    border-left: 4px solid;
+    border-left: 4px solid orangered;
+    padding-right: 30px;
+    border-radius: 3px;
+
+/*     
+    border-image:linear-gradient(orangered,tomato);
+    border-image-slice: 1;    */
     
-    border-image:linear-gradient(#C70039,tomato);
-    border-image-slice: 1;   
+    
 }
 .text-align{
     text-align: center;
@@ -90,18 +98,23 @@ h1{
     
     padding-left: 25px;
     padding-right: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 #develop-image{
     background-image: url(./images/shapes/shape-1.png);
     background-repeat: no-repeat;
     background-size:200px 220px;
-    background-position:left; 
+    background-position:left top; 
+    background-position-x: 40px;
+    background-position-y: 40px;
+
+    
    
 }
 #develop-text{
-    margin-right: 20%;
+    margin-right: 15%;
     padding-right: 5%;
+   padding-left: 60px;
     
  
 }
@@ -119,5 +132,56 @@ h1{
     padding-bottom:120px;
     background-position-x: 1050px;
 
+  
+}
+.h-primary-center{
+    text-align: center;
+}
+
+.tomato-color{
+    color: tomato;
+}
+#html{
+    background-color:rgb(221, 248, 223);
+    border-radius: 20px;
+    margin-left:10%;
+    margin-right: 1%;
     
+    padding-left: 25px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    box-shadow: 10px 10px 10px gray;
+}
+#css{
+    background-color:rgb(248, 238, 204);
+ 
+    border-radius: 20px;
+    margin-left:1%;
+    margin-right: 1%;
+    
+    padding-left: 25px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+
+    box-shadow: 10px 10px 10px gray;
+}
+#python{
+    background-color:rgb(195, 252, 237);
+    border-radius: 20px;
+    margin-left:1%;
+    margin-right: 10%;
+    
+    padding-left: 25px;
+    padding-right: 5px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    box-shadow: 10px 10px 10px gray;
+}
+footer{
+    background:#072227;
+    width: 100%;
+    padding: 0;
+}
+.footer-color{
+   color: azure;
 }
